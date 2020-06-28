@@ -14,3 +14,5 @@
 [bspace]>[space]
 [delete]>[bspace]
 [home]>[delete]
+[end]>[escape]
+
