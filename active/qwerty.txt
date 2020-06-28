@@ -1,2 +1,16 @@
-[rwin]>[ralt]
-[kp-rwin]>[kp-ralt]
+* kinesis_advantage2
+
+* `intl-\` doesn't work. change `alt`
+[intl-\]>[lalt]
+
+* `rwin` doesn't work at linux. but `lwin` works well.
+[rwin]>[lwin]
+
+* Move '`' to conventional position.
+[=]>[`]
+[`]>[=]
+
+* temporary settings
+[bspace]>[space]
+[delete]>[bspace]
+[home]>[delete]
