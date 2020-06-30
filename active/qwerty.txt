@@ -1,7 +1,14 @@
 * kinesis_advantage2
 
-* `intl-\` doesn't work. change `alt`
-[intl-\]>[lalt]
+* `intl-\` doesn't work. change `kptoggle` that means kepad key.
+[intl-\]>[escape]
+[kp-intl-\]>[escape]
+
+[right]>[kpshft]
+[kp-right]>[kpshft]
+
+[left]>[kptoggle]
+[kp-left]>[kptoggle]
 
 * `rwin` doesn't work at linux. but `lwin` works well.
 [rwin]>[lwin]
@@ -11,8 +18,11 @@
 [`]>[=]
 
 * temporary settings
-[bspace]>[space]
-[delete]>[bspace]
-[home]>[delete]
-[end]>[escape]
 
+[kp-h]>[left]
+[kp4]>[down]
+[kp5]>[up]
+[kp6]>[right]
+
+[kp1]>[enter]
+[kp-n]>[bspace]
