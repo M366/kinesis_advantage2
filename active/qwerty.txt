@@ -7,7 +7,7 @@
 *
 
 * `intl-\` doesn't work well. Change it to an another key.
-[intl-\]>[hyphen]
+[intl-\]>[escape]
 
 * The windows key is used on the ubuntu linux as a super key.
 * `rwin` doesn't work well. But `lwin` works well.
