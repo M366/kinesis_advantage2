@@ -21,9 +21,9 @@
 [delete]>[kpshft]
 [kp-delete]>[kpshft]
 
-* For vim, `escape` set to a thumb key.
-[bspace]>[escape]
-[kp-bspace]>[escape]
+* I need space key to both hand...
+[bspace]>[space]
+[kp-bspace]>[space]
 
 * Exchange `up` and `down` like the vim.
 [up]>[down]
