@@ -21,7 +21,7 @@
 [delete]>[kpshft]
 [kp-delete]>[kpshft]
 
-* I need space key to both hand...
+* I need space keys for both hand...
 [bspace]>[space]
 [kp-bspace]>[space]
 
