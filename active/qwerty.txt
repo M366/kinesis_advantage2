@@ -1,28 +1,37 @@
-* kinesis_advantage2
+* kinesis advantage2 key remap
+* mode: win
+* The key remap is tested on ubuntu 18.04LTS
 
-* `intl-\` doesn't work. change `kptoggle` that means kepad key.
-[intl-\]>[escape]
-[kp-intl-\]>[escape]
+*
+* Followings is a temporary settings for the auther. (I'm kinesis keyboard newbie.)
+*
 
-[right]>[kpshft]
-[kp-right]>[kpshft]
+* `intl-\` doesn't work well. Change it to an another key.
+[intl-\]>[hyphen]
 
-[left]>[kptoggle]
-[kp-left]>[kptoggle]
-
-* `rwin` doesn't work at linux. but `lwin` works well.
+* The windows key is used on the ubuntu linux as a super key.
+* `rwin` doesn't work well. But `lwin` works well.
 [rwin]>[lwin]
 
 * Move '`' to conventional position.
 [=]>[`]
 [`]>[=]
 
-* temporary settings
+* `kpshft` must be set the same key both the default layer and the keypad layer.
+[delete]>[kpshft]
+[kp-delete]>[kpshft]
 
-[kp-h]>[left]
-[kp4]>[down]
-[kp5]>[up]
-[kp6]>[right]
+* For vim, `escape` set to a thumb key.
+[bspace]>[escape]
+[kp-bspace]>[escape]
 
+* Exchange `up` and `down` like the vim.
+[up]>[down]
+[kp-up]>[down]
+[down]>[up]
+[kp-down]>[up]
+
+* `Enter` and `bspace` set H and M on keypad layer, respectively, like the vim.
 [kp1]>[enter]
-[kp-n]>[bspace]
+[kp-h]>[bspace]
+
