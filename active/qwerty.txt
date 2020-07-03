@@ -17,15 +17,15 @@
 [=]>[`]
 [`]>[=]
 
-* `kpshft` must be set the same key both the default layer and the keypad layer.
-[delete]>[kpshft]
-[kp-delete]>[kpshft]
+* `kpshft` must be set the same key both the top layer and the keypad layer.
+* `kpshft` and `kpshift` are both correct token.
+[delete]>[kpshift]
+[kp-delete]>[kpshift]
 
-* I need space keys for both hand...
-[bspace]>[space]
-[kp-bspace]>[space]
+* lalt key is far between tab key for me.
+[bspace]>[bspace][t&h120][lalt]
 
-* Exchange `up` and `down` like the vim.
+* Exchange `up` and `down` like vim.
 [up]>[down]
 [kp-up]>[down]
 [down]>[up]
@@ -34,4 +34,27 @@
 * `Enter` and `bspace` set H and M on keypad layer, respectively, like the vim.
 [kp1]>[enter]
 [kp-h]>[bspace]
+
+* Additional escape key for vim.
+[lctrl]>[escape][t&h110][lctrl]
+[rctrl]>[escape][t&h110][rctrl]
+
+* far keys
+[rshift]>[=][t&h110][rshift]
+
+*
+* Parentheses and brakets
+*
+* Parentheses
+{kp8}>{-lshift}{9}{+lshift}
+{kp9}>{-lshift}{0}{+lshift}
+
+* Braces
+{kp5}>{-lshift}{obrack}{+lshift}
+{kp6}>{-lshift}{cbrack}{+lshift}
+
+* Backets
+[kp2]>[obrack]
+[kp3]>[cbrack]
+
 
