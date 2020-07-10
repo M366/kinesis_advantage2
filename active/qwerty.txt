@@ -7,54 +7,83 @@
 *
 
 * `intl-\` doesn't work well. Change it to an another key.
-[intl-\]>[escape]
+[intl-\]>[right]
+[`]>[left]
+[right]>[hyphen]
+[left]>[=]
 
 * The windows key is used on the ubuntu linux as a super key.
 * `rwin` doesn't work well. But `lwin` works well.
 [rwin]>[lwin]
+[kp-rwin]>[lwin]
 
-* Move '`' to conventional position.
+* Change far keys to 
 [=]>[`]
-[`]>[=]
+[hyphen]>[bspace]
 
-* `kpshft` must be set the same key both the top layer and the keypad layer.
+
+* `kpshft` must be set a same key both the top layer and the keypad layer.
 * `kpshft` and `kpshift` are both correct token.
 [delete]>[kpshift]
 [kp-delete]>[kpshift]
+[home]>[escape]
+[pup]>[delete]
 
-* lalt key is far between tab key for me.
-[bspace]>[bspace][t&h120][lalt]
+* for IME on/off
+{end}>{-lctrl}{-lshift}{up}{+lshift}{+lctrl}
+{pdown}>{-lctrl}{-lshift}{down}{+lshift}{+lctrl}
+
+* Move shift keys to thumb keys
+* [bspace]>[bspace][t&h140][lshift]
+[space]>[space][t&h150][rshift]
+[bspace]>[lshift]
+* [space]>[rshift]
+[kp0]>[bspace]
+* [enter]>[rshift]
+* [rshift]
+* [lshift]>[bspace]
 
 * Exchange `up` and `down` like vim.
-[up]>[down]
-[kp-up]>[down]
-[down]>[up]
-[kp-down]>[up]
+* [up]>[down]
+* [kp-up]>[down]
+* [down]>[up]
+* [kp-down]>[up]
 
-* `Enter` and `bspace` set H and M on keypad layer, respectively, like the vim.
-[kp1]>[enter]
-[kp-h]>[bspace]
+[up]>[obrack]
+[down]>[cbrack]
+[obrack]>[up]
+[cbrack]>[down]
 
-* Additional escape key for vim.
-[lctrl]>[escape][t&h110][lctrl]
-[rctrl]>[escape][t&h110][rctrl]
+* Additional escape key
+* [lctrl]>[escape][t&h130][lctrl]
+* [rctrl]>[escape][t&h130][rctrl]
 
 * far keys
-[rshift]>[=][t&h110][rshift]
+* [rshift]>[=][t&h140][rshift]
+* [lshift]>[`][t&h140][lshift]
 
 *
-* Parentheses and brakets
+* Move punctures to keypad layer
 *
+
 * Parentheses
-{kp8}>{-lshift}{9}{+lshift}
-{kp9}>{-lshift}{0}{+lshift}
+* {kp8}>{-lshift}{9}{+lshift}
+* {kp9}>{-lshift}{0}{+lshift}
 
 * Braces
-{kp5}>{-lshift}{obrack}{+lshift}
-{kp6}>{-lshift}{cbrack}{+lshift}
+* {kp5}>{-lshift}{obrack}{+lshift}
+* {kp6}>{-lshift}{cbrack}{+lshift}
 
 * Backets
-[kp2]>[obrack]
-[kp3]>[cbrack]
+* [kp2]>[obrack]
+* [kp3]>[cbrack]
 
+
+* minus underbar plus equar - _ + =
+* [kp1]>[=]
+* {kp-n}>{-lshift}{=}{+lshift}
+* {kp4}>{-lshift}{hyphen}{+lshift}
+* [kp-h]>[hyphen]
+* [kp-y]>[`]
+* {kp7}>{-lshift}{`}{+lshift}
 
