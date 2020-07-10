@@ -19,7 +19,7 @@
 
 * Change far keys to 
 [=]>[`]
-[hyphen]>[bspace]
+* [hyphen]>[]
 
 
 * `kpshft` must be set a same key both the top layer and the keypad layer.
