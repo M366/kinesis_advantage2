@@ -19,7 +19,7 @@
 
 * Change far keys to 
 [=]>[`]
-* [hyphen]>[]
+[hyphen]>[delete]
 [kp-']>[`]
 {kp-\}>{-lshift}{`}{+lshift}
 
@@ -28,7 +28,7 @@
 [delete]>[kpshift]
 [kp-delete]>[kpshift]
 [home]>[escape]
-[pup]>[delete]
+[pup]>[tab]
 
 * for IME on/off
 {end}>{-lctrl}{-lshift}{up}{+lshift}{+lctrl}
@@ -46,9 +46,9 @@
 
 * Exchange `up` and `down` like vim.
 * [up]>[down]
-* [kp-up]>[down]
+[kp-up]>[down]
 * [down]>[up]
-* [kp-down]>[up]
+[kp-down]>[up]
 
 [up]>[obrack]
 [down]>[cbrack]
@@ -88,3 +88,16 @@
 * [kp-y]>[`]
 * {kp7}>{-lshift}{`}{+lshift}
 
+* Move functional keys to keypad number keys
+[kp-1]>[f1]
+[kp-2]>[f2]
+[kp-3]>[f3]
+[kp-4]>[f4]
+[kp-5]>[f5]
+[kp-6]>[f6]
+[numlk]>[f7]
+[kp=]>[f8]
+[kpdiv]>[f9]
+[kpmult]>[f10]
+[kp-hyphen]>[f11]
+[kp-=]>[f12]
