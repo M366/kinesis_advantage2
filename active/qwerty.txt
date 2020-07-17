@@ -36,13 +36,13 @@
 
 * Move shift keys to thumb keys
 * [bspace]>[bspace][t&h140][lshift]
-[space]>[space][t&h150][rshift]
+* [space]>[space][t&h150][lshift]
 [bspace]>[lshift]
 * [space]>[rshift]
 [kp0]>[bspace]
-* [enter]>[rshift]
-* [rshift]
+[enter]>[lshift]
 * [lshift]>[bspace]
+[rshift]>[enter]
 
 * Exchange `up` and `down` like vim.
 * [up]>[down]
@@ -84,7 +84,7 @@
 * [kp1]>[=]
 * {kp-n}>{-lshift}{=}{+lshift}
 * {kp4}>{-lshift}{hyphen}{+lshift}
-* [kp-h]>[hyphen]
+[kp-h]>[bspace]
 * [kp-y]>[`]
 * {kp7}>{-lshift}{`}{+lshift}
 
