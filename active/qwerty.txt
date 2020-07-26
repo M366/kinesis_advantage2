@@ -36,7 +36,7 @@
 
 * Move shift keys to thumb keys
 * [bspace]>[bspace][t&h140][lshift]
-[enter]>[enter][t&h140][lshift]
+* [enter]>[enter][t&h140][lshift]
 [bspace]>[lshift]
 * [space]>[lshift]
 * [kp-rctrl]>[bspace]
