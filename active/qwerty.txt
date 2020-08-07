@@ -19,7 +19,8 @@
 
 * Change far keys to 
 [=]>[`]
-[hyphen]>[delete]
+* [hyphen]>[delete]
+[kp-hyphen]>[delete]
 [kp-']>[`]
 {kp-\}>{-lshift}{`}{+lshift}
 
@@ -39,10 +40,10 @@
 * [enter]>[enter][t&h140][lshift]
 [bspace]>[lshift]
 * [space]>[lshift]
-* [kp-rctrl]>[bspace]
+[kp-rctrl]>[delete]
 * [kp0]>[bspace]
 [rctrl]>[bspace]
-[kp-rctrl]>[lctrl]
+* [kp-rctrl]>[lctrl]
 * [enter]>[lshift]
 * [lshift]>[bspace]
 * [rshift]>[enter]
