@@ -21,8 +21,8 @@
 [=]>[`]
 * [hyphen]>[delete]
 [kp-hyphen]>[delete]
-[kp-']>[`]
-{kp-\}>{-lshift}{`}{+lshift}
+* [kp-']>[`]
+* {kp-\}>{-lshift}{`}{+lshift}
 
 * `kpshft` must be set a same key both the top layer and the keypad layer.
 * `kpshft` and `kpshift` are both correct token.
